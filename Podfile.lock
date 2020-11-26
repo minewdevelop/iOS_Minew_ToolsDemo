@@ -1,0 +1,16 @@
+PODS:
+  - MinewToolsKit (1.0.0)
+
+DEPENDENCIES:
+  - MinewToolsKit
+
+SPEC REPOS:
+  trunk:
+    - MinewToolsKit
+
+SPEC CHECKSUMS:
+  MinewToolsKit: ccfd6237b11bcecb94ddd4138da0cab952d82760
+
+PODFILE CHECKSUM: c2e38a3ec701c3423da67a5a803f996cc8bd25e6
+
+COCOAPODS: 1.10.0

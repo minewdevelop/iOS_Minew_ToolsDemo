@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		062ED20A4B685B260364D7FD7245DAF6 /* MinewToolsKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA768017D48A40B5897EC0FD049DDEC1 /* Build configuration list for PBXAggregateTarget "MinewToolsKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MinewToolsKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		33DD8FCAD24F29C7F75F5752369E4DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E97CED0A609D2F480B63481EA5DFB36B /* Pods-MinewToolsKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEA8F91A29C7856C3AAFEBADECFA4C /* Pods-MinewToolsKitDemo-dummy.m */; };
+		FB220220BA6EB768231ABF45AB289DF2 /* Pods-MinewToolsKitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39457B8E0FAEE8D38EF58D5926D8F10B /* Pods-MinewToolsKitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84E651F4F79B95667721090CCFF42FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062ED20A4B685B260364D7FD7245DAF6;
+			remoteInfo = MinewToolsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E944D6BD0FAC8CF3CFDD3B3C194A2D /* Pods_MinewToolsKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MinewToolsKitDemo.framework; path = "Pods-MinewToolsKitDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA7DA349A67DFD08180158DEABDC09B /* Pods-MinewToolsKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MinewToolsKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		153DCD703B34D1D19347167EB9D6AEF4 /* Pods-MinewToolsKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MinewToolsKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C79EF67EE08589B7C5969573C552D8D /* MinewToolsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MinewToolsKit.release.xcconfig; sourceTree = "<group>"; };
+		2799987EA41A17A0A74B1B3879937194 /* MTLCentralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLCentralManager.h; path = MinewToolsKit/Classes/MTLCentralManager.h; sourceTree = "<group>"; };
+		2B9B15F1BD5F8DAB8E7D19DBF4A99E0F /* MinewToolsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MinewToolsKit.h; path = MinewToolsKit/Classes/MinewToolsKit.h; sourceTree = "<group>"; };
+		321FBEB4F3B2BD55CFCAFDED284C129C /* Pods-MinewToolsKitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MinewToolsKitDemo.modulemap"; sourceTree = "<group>"; };
+		39457B8E0FAEE8D38EF58D5926D8F10B /* Pods-MinewToolsKitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MinewToolsKitDemo-umbrella.h"; sourceTree = "<group>"; };
+		3FB97666E97345070589E87B9A0C3F6C /* MTLOTAManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLOTAManager.h; path = MinewToolsKit/Classes/MTLOTAManager.h; sourceTree = "<group>"; };
+		3FD979D51F059D9308FD5873433B8FCA /* Pods-MinewToolsKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinewToolsKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		44B7993B7BE501E5A31BA75ECF3968B2 /* MinewToolsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MinewToolsKit.debug.xcconfig; sourceTree = "<group>"; };
+		4E58320645F373AC7340F12E7D68ECF6 /* MTLDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLDeviceInfo.h; path = MinewToolsKit/Classes/MTLDeviceInfo.h; sourceTree = "<group>"; };
+		6687D56B0E487F497E2CC6BD9F018CC6 /* Pods-MinewToolsKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinewToolsKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3B17E41801E3D345A9A489188858E01 /* MTLBroadcastHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLBroadcastHandler.h; path = MinewToolsKit/Classes/MTLBroadcastHandler.h; sourceTree = "<group>"; };
+		BC5DE318805FC46724412B8EF8F39218 /* MTLPeripheral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLPeripheral.h; path = MinewToolsKit/Classes/MTLPeripheral.h; sourceTree = "<group>"; };
+		BFDEA8F91A29C7856C3AAFEBADECFA4C /* Pods-MinewToolsKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MinewToolsKitDemo-dummy.m"; sourceTree = "<group>"; };
+		C02325EC73CC38B16CC2339D9D6503C7 /* Pods-MinewToolsKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinewToolsKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CE478E22D4DD5CE4A6BAEF5EDDC2998E /* MTLConnectionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLConnectionHandler.h; path = MinewToolsKit/Classes/MTLConnectionHandler.h; sourceTree = "<group>"; };
+		DA9C608D4F9691AC5A43C12D6887E4D9 /* MinewToolsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MinewToolsKit.framework; path = MinewToolsKit/Frameworks/MinewToolsKit.framework; sourceTree = "<group>"; };
+		EFD166C49A3506D18CBBD1B83F855BD5 /* Pods-MinewToolsKitDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinewToolsKitDemo-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62693585F4BC70AB7F6A91701F64DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DD8FCAD24F29C7F75F5752369E4DDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2478C204FF48EE93C5D16A1EC7C1C557 /* Pods-MinewToolsKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				321FBEB4F3B2BD55CFCAFDED284C129C /* Pods-MinewToolsKitDemo.modulemap */,
+				153DCD703B34D1D19347167EB9D6AEF4 /* Pods-MinewToolsKitDemo-acknowledgements.markdown */,
+				6687D56B0E487F497E2CC6BD9F018CC6 /* Pods-MinewToolsKitDemo-acknowledgements.plist */,
+				BFDEA8F91A29C7856C3AAFEBADECFA4C /* Pods-MinewToolsKitDemo-dummy.m */,
+				0BA7DA349A67DFD08180158DEABDC09B /* Pods-MinewToolsKitDemo-frameworks.sh */,
+				EFD166C49A3506D18CBBD1B83F855BD5 /* Pods-MinewToolsKitDemo-Info.plist */,
+				39457B8E0FAEE8D38EF58D5926D8F10B /* Pods-MinewToolsKitDemo-umbrella.h */,
+				3FD979D51F059D9308FD5873433B8FCA /* Pods-MinewToolsKitDemo.debug.xcconfig */,
+				C02325EC73CC38B16CC2339D9D6503C7 /* Pods-MinewToolsKitDemo.release.xcconfig */,
+			);
+			name = "Pods-MinewToolsKitDemo";
+			path = "Target Support Files/Pods-MinewToolsKitDemo";
+			sourceTree = "<group>";
+		};
+		44D0FFF4E5BCFD9A164DE2E373986ECC /* MinewToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				2B9B15F1BD5F8DAB8E7D19DBF4A99E0F /* MinewToolsKit.h */,
+				B3B17E41801E3D345A9A489188858E01 /* MTLBroadcastHandler.h */,
+				2799987EA41A17A0A74B1B3879937194 /* MTLCentralManager.h */,
+				CE478E22D4DD5CE4A6BAEF5EDDC2998E /* MTLConnectionHandler.h */,
+				4E58320645F373AC7340F12E7D68ECF6 /* MTLDeviceInfo.h */,
+				3FB97666E97345070589E87B9A0C3F6C /* MTLOTAManager.h */,
+				BC5DE318805FC46724412B8EF8F39218 /* MTLPeripheral.h */,
+				DE0870B7DFDBC2D4268503CD4E8D15C2 /* Frameworks */,
+				53E30665991009EACE34AC09C8CDC375 /* Support Files */,
+			);
+			name = MinewToolsKit;
+			path = MinewToolsKit;
+			sourceTree = "<group>";
+		};
+		53E30665991009EACE34AC09C8CDC375 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44B7993B7BE501E5A31BA75ECF3968B2 /* MinewToolsKit.debug.xcconfig */,
+				1C79EF67EE08589B7C5969573C552D8D /* MinewToolsKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MinewToolsKit";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		735931F9B89E26CACC5475AEE19B3543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44D0FFF4E5BCFD9A164DE2E373986ECC /* MinewToolsKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94F0A798CABC63EB35C5A321ABD90639 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2478C204FF48EE93C5D16A1EC7C1C557 /* Pods-MinewToolsKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBB4678933B1587AF3365A980593D262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E944D6BD0FAC8CF3CFDD3B3C194A2D /* Pods_MinewToolsKitDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				735931F9B89E26CACC5475AEE19B3543 /* Pods */,
+				BBB4678933B1587AF3365A980593D262 /* Products */,
+				94F0A798CABC63EB35C5A321ABD90639 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE0870B7DFDBC2D4268503CD4E8D15C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C608D4F9691AC5A43C12D6887E4D9 /* MinewToolsKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B91F99256B6C8F9C8F15EE6B0A175A2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB220220BA6EB768231ABF45AB289DF2 /* Pods-MinewToolsKitDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78D62DFBA861322A4CCD2AE8F9E06D3A /* Pods-MinewToolsKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AB994D3FB304CEC694DD70BD826CE2 /* Build configuration list for PBXNativeTarget "Pods-MinewToolsKitDemo" */;
+			buildPhases = (
+				B91F99256B6C8F9C8F15EE6B0A175A2C /* Headers */,
+				35656F21AA50527C90E369894128340D /* Sources */,
+				B62693585F4BC70AB7F6A91701F64DB7 /* Frameworks */,
+				A9B4F93A1D6920B1991AF57777E5C753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457DB78E75583AE77C90BB4E581F0E8C /* PBXTargetDependency */,
+			);
+			name = "Pods-MinewToolsKitDemo";
+			productName = "Pods-MinewToolsKitDemo";
+			productReference = 04E944D6BD0FAC8CF3CFDD3B3C194A2D /* Pods_MinewToolsKitDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BBB4678933B1587AF3365A980593D262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062ED20A4B685B260364D7FD7245DAF6 /* MinewToolsKit */,
+				78D62DFBA861322A4CCD2AE8F9E06D3A /* Pods-MinewToolsKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B4F93A1D6920B1991AF57777E5C753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35656F21AA50527C90E369894128340D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97CED0A609D2F480B63481EA5DFB36B /* Pods-MinewToolsKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457DB78E75583AE77C90BB4E581F0E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MinewToolsKit;
+			target = 062ED20A4B685B260364D7FD7245DAF6 /* MinewToolsKit */;
+			targetProxy = E84E651F4F79B95667721090CCFF42FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34C7349487FAE7385AD00F0E42226E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02325EC73CC38B16CC2339D9D6503C7 /* Pods-MinewToolsKitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59764BC32294C406D0823B939237BF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD979D51F059D9308FD5873433B8FCA /* Pods-MinewToolsKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D3228E21AB1D25603B136658BF10AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B7993B7BE501E5A31BA75ECF3968B2 /* MinewToolsKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95B58CABFF55384C20ABF3736EBAA757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C79EF67EE08589B7C5969573C552D8D /* MinewToolsKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AB994D3FB304CEC694DD70BD826CE2 /* Build configuration list for PBXNativeTarget "Pods-MinewToolsKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59764BC32294C406D0823B939237BF62 /* Debug */,
+				34C7349487FAE7385AD00F0E42226E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA768017D48A40B5897EC0FD049DDEC1 /* Build configuration list for PBXAggregateTarget "MinewToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3228E21AB1D25603B136658BF10AB7 /* Debug */,
+				95B58CABFF55384C20ABF3736EBAA757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

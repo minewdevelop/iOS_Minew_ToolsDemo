@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26919EF6BEE4EEB2F0FCD7BC /* Pods_MinewToolsKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0908FEB90291E77802676625 /* Pods_MinewToolsKitDemo.framework */; };
+		5A2A06DC2537E7760012238F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A06DB2537E7760012238F /* AppDelegate.m */; };
+		5A2A06E22537E7760012238F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A06E12537E7760012238F /* ViewController.m */; };
+		5A2A06E52537E7760012238F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A06E32537E7760012238F /* Main.storyboard */; };
+		5A2A06E72537E7780012238F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A06E62537E7780012238F /* Assets.xcassets */; };
+		5A2A06EA2537E7780012238F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A06E82537E7780012238F /* LaunchScreen.storyboard */; };
+		5A2A06ED2537E7780012238F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A06EC2537E7780012238F /* main.m */; };
+		5A2A06FB2537EB250012238F /* DeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A06FA2537EB250012238F /* DeviceVC.m */; };
+		6A4B5FCA256F3E0A0098E1BD /* L1_OTA_ES009_20201119_v1_0_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6A4B5FC9256F3E0A0098E1BD /* L1_OTA_ES009_20201119_v1_0_1.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A2A07082538497C0012238F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0908FEB90291E77802676625 /* Pods_MinewToolsKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinewToolsKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2A06D72537E7760012238F /* MinewToolsKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinewToolsKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2A06DA2537E7760012238F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A2A06DB2537E7760012238F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A2A06E02537E7760012238F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A2A06E12537E7760012238F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A2A06E42537E7760012238F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A2A06E62537E7780012238F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A2A06E92537E7780012238F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A2A06EB2537E7780012238F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2A06EC2537E7780012238F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A2A06F92537EB250012238F /* DeviceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceVC.h; sourceTree = "<group>"; };
+		5A2A06FA2537EB250012238F /* DeviceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceVC.m; sourceTree = "<group>"; };
+		6A4B5FC9256F3E0A0098E1BD /* L1_OTA_ES009_20201119_v1_0_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = L1_OTA_ES009_20201119_v1_0_1.bin; sourceTree = "<group>"; };
+		6E3E2779084CC4FFF234BB12 /* Pods-MinewToolsKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinewToolsKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		72AD6A5077AC5B8BF779336A /* Pods-MinewToolsKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinewToolsKitDemo.release.xcconfig"; path = "Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2A06D42537E7760012238F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26919EF6BEE4EEB2F0FCD7BC /* Pods_MinewToolsKitDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59233861DB29AB6036FDEEE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E3E2779084CC4FFF234BB12 /* Pods-MinewToolsKitDemo.debug.xcconfig */,
+				72AD6A5077AC5B8BF779336A /* Pods-MinewToolsKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A2A06CE2537E7760012238F = {
+			isa = PBXGroup;
+			children = (
+				6A4B5FC9256F3E0A0098E1BD /* L1_OTA_ES009_20201119_v1_0_1.bin */,
+				5A2A06D92537E7760012238F /* MinewToolsKitDemo */,
+				5A2A06D82537E7760012238F /* Products */,
+				5A2A07052538497C0012238F /* Frameworks */,
+				59233861DB29AB6036FDEEE6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2A06D82537E7760012238F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A06D72537E7760012238F /* MinewToolsKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2A06D92537E7760012238F /* MinewToolsKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A06DA2537E7760012238F /* AppDelegate.h */,
+				5A2A06DB2537E7760012238F /* AppDelegate.m */,
+				5A2A06E02537E7760012238F /* ViewController.h */,
+				5A2A06E12537E7760012238F /* ViewController.m */,
+				5A2A06E32537E7760012238F /* Main.storyboard */,
+				5A2A06E62537E7780012238F /* Assets.xcassets */,
+				5A2A06E82537E7780012238F /* LaunchScreen.storyboard */,
+				5A2A06EB2537E7780012238F /* Info.plist */,
+				5A2A06EC2537E7780012238F /* main.m */,
+				5A2A06F92537EB250012238F /* DeviceVC.h */,
+				5A2A06FA2537EB250012238F /* DeviceVC.m */,
+			);
+			path = MinewToolsKitDemo;
+			sourceTree = "<group>";
+		};
+		5A2A07052538497C0012238F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0908FEB90291E77802676625 /* Pods_MinewToolsKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A2A06D62537E7760012238F /* MinewToolsKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2A06F02537E7780012238F /* Build configuration list for PBXNativeTarget "MinewToolsKitDemo" */;
+			buildPhases = (
+				E3357E4087F26C99C0668DEA /* [CP] Check Pods Manifest.lock */,
+				5A2A06D32537E7760012238F /* Sources */,
+				5A2A06D42537E7760012238F /* Frameworks */,
+				5A2A06D52537E7760012238F /* Resources */,
+				5A2A07082538497C0012238F /* Embed Frameworks */,
+				37DEE0BB1FCBA222DA127C4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinewToolsKitDemo;
+			productName = MinewToolsKitDemo;
+			productReference = 5A2A06D72537E7760012238F /* MinewToolsKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A2A06CF2537E7760012238F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5A2A06D62537E7760012238F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A2A06D22537E7760012238F /* Build configuration list for PBXProject "MinewToolsKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A2A06CE2537E7760012238F;
+			productRefGroup = 5A2A06D82537E7760012238F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2A06D62537E7760012238F /* MinewToolsKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2A06D52537E7760012238F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2A06EA2537E7780012238F /* LaunchScreen.storyboard in Resources */,
+				5A2A06E72537E7780012238F /* Assets.xcassets in Resources */,
+				6A4B5FCA256F3E0A0098E1BD /* L1_OTA_ES009_20201119_v1_0_1.bin in Resources */,
+				5A2A06E52537E7760012238F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37DEE0BB1FCBA222DA127C4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinewToolsKitDemo/Pods-MinewToolsKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3357E4087F26C99C0668DEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MinewToolsKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2A06D32537E7760012238F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2A06E22537E7760012238F /* ViewController.m in Sources */,
+				5A2A06DC2537E7760012238F /* AppDelegate.m in Sources */,
+				5A2A06FB2537EB250012238F /* DeviceVC.m in Sources */,
+				5A2A06ED2537E7780012238F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A2A06E32537E7760012238F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2A06E42537E7760012238F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A2A06E82537E7780012238F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2A06E92537E7780012238F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A2A06EE2537E7780012238F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A2A06EF2537E7780012238F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A2A06F12537E7780012238F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3E2779084CC4FFF234BB12 /* Pods-MinewToolsKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 646P9H983T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MinewToolsKitDemo",
+				);
+				INFOPLIST_FILE = MinewToolsKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minew.MinewToolsKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A2A06F22537E7780012238F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AD6A5077AC5B8BF779336A /* Pods-MinewToolsKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 646P9H983T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MinewToolsKitDemo",
+				);
+				INFOPLIST_FILE = MinewToolsKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minew.MinewToolsKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2A06D22537E7760012238F /* Build configuration list for PBXProject "MinewToolsKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2A06EE2537E7780012238F /* Debug */,
+				5A2A06EF2537E7780012238F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2A06F02537E7780012238F /* Build configuration list for PBXNativeTarget "MinewToolsKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2A06F12537E7780012238F /* Debug */,
+				5A2A06F22537E7780012238F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A2A06CF2537E7760012238F /* Project object */;
+}

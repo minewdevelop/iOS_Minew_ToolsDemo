@@ -1,0 +1,6 @@
+framework module MinewToolsKit {
+  umbrella header "MinewToolsKit.h"
+
+  export *
+  module * { export * }
+}
